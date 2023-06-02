@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Tamarin</string>
+    <string name="EnrollJoinText">Request</string>
+    <string name="EnrollName">Academy Name</string>
+    <string name="EnrollContactPersonName">Contact person name</string>
+    <string name="EnrollContactPersonMobile">Contact person mobile</string>
+    <string name="EnrollEmail">Email</string>
+    <string name="EnrollSubmitBTN">Submit</string>
+    <string name="EnrollNewRequestMenuBTN">New request</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="branch_TV">Branches :</string>
+
+    <string name="menu_nav_academy_profile">Edit profile</string>
+    <string name="menu_nav_enroll">Join Tamarin</string>
+    <string name="menu_profile_new_branch">New branch</string>
+
+    <string name="dialog_new_academy_branch_address">Address</string>
+    <string name="dialog_new_academy_branch_mobile">Mobile</string>
+    <string name="dialog_new_academy_branch_map">Map Link</string>
+
+    <string name="dialog_confirmation_message">Are you sure you want to delete?</string>
+    <string name="edit_profile_select_image_1">select image 1</string>
+    <string name="edit_profile_select_image_2">select image 2</string>
+    <string name="edit_profile_select_image_3">select image 3</string>
+    <string name="edit_profile_select_image_4">select image 4</string>
+
+    <string name="Add">Add</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Edit">Edit</string>
+    <string name="Delete">Delete</string>
+    <string name="Update">Update</string>
+    <string name="Login">Login</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Signout">Signout</string>
+    <string name="Submit">Submit</string>
+    <string name="Select">Select</string>
+    <string name="Call">Call</string>
+    <string name="Map">Map</string>
+    <string name="FB">Facebook</string>
+    <string name="YT">Youtube</string>
+    <string name="IG">Instagram</string>
+    <string name="TW">Twitter</string>
+    <string name="Academy">Academy</string>
+    <string name="Trainer">Trainer</string>
+
+
+    <string name="RatePerSession">Rate per session</string>
+
+</resources>

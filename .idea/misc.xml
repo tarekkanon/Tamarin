@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3145" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/drawable/academies_result_item_shape.xml" value="0.2205" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/drawable/gradiant_background.xml" value="0.3405" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3145" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.2505" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/drawable/rounded_courners_all.xml" value="0.3405" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/drawable/rounded_courners_recycleview.xml" value="0.3405" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/drawable/rounded_courners_right_purple.xml" value="0.2505" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/drawable/rounded_courners_white.xml" value="0.2505" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/drawable/rounded_search_button.xml" value="0.2205" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/academy_result_list_item.xml" value="0.3625" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/activity_academy_category_branch_edit.xml" value="0.3625" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/activity_academy_details.xml" value="0.33" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/activity_edit_profile.xml" value="0.33" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/activity_enrollment.xml" value="0.3625" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/activity_home.xml" value="0.3625" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/activity_login_academy.xml" value="0.3625" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/app_bar_home.xml" value="0.3625" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/branch_result_list_item.xml" value="0.3625" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/category_custom_spinner_item.xml" value="0.3614583333333333" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/content_home.xml" value="0.3625" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/dialog_confirmation_box.xml" value="0.27109375" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/dialog_new_academy_branch.xml" value="0.3614583333333333" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/dialog_new_academy_branch_category.xml" value="0.3625" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/edit_profile_image_select_item.xml" value="0.3625" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/fragment_gallery.xml" value="0.3625" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/fragment_home.xml" value="0.3625" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/fragment_slideshow.xml" value="0.3625" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/image_slider_frame.xml" value="0.3625" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/nav_header_home.xml" value="0.3625" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/menu/activity_main_drawer.xml" value="0.3625" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/menu/category_branch_menu.xml" value="0.34814814814814815" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/menu/home.xml" value="0.3625" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/menu/home_menu.xml" value="0.3625" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/menu/profile_menu.xml" value="0.3625" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3145" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3145" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

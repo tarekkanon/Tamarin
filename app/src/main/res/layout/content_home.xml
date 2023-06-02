@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_home"
+    android:background="@drawable/img1">
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/SearchSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:singleSelection="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_courners_white"
+        app:checkedButton="@id/SearchSWAcademy"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:alpha="0.7"
+        app:selectionRequired="true"
+        >
+        <Button
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:id="@+id/SearchSWAcademy"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/Academy" />
+
+        <Button
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:id="@+id/SearchSWTrainer"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/Trainer" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/searchBarLL"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/SearchSwitch"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:layout_marginRight="15dp"-->
+<!--        android:layout_marginLeft="15dp"-->
+<!--        android:padding="1dp"-->
+<!--        android:alpha="0.9"-->
+<!--        android:background="@drawable/rounded_courners_all"-->
+<!--        >-->
+
+<!--        <Spinner-->
+<!--            android:id="@+id/LOVCategory"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:minHeight="48dp"-->
+<!--            android:layout_weight="1"-->
+<!--            />-->
+
+<!--        <View-->
+<!--            android:layout_width="1dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginTop="3dp"-->
+<!--            android:layout_marginBottom="3dp"-->
+<!--            android:background="@color/purple_500" />-->
+
+<!--        <Spinner-->
+<!--            android:id="@+id/LOVLocation"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:minHeight="48dp"-->
+<!--            />-->
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/IMGBTNSearch"-->
+<!--            android:layout_width="25dp"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:layout_weight="0.1"-->
+<!--            android:layout_margin="2dp"-->
+<!--            android:foreground="@android:drawable/ic_menu_search"-->
+<!--            android:background="@drawable/rounded_search_button"-->
+<!--            />-->
+
+
+<!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:id="@+id/searchBarLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/SearchSwitch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:padding="1dp"
+        android:alpha="0.9"
+        android:background="@drawable/rounded_courners_all"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_weight="1">
+
+            <Spinner
+                android:id="@+id/LOVCategory"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginEnd="80dp"
+                android:layout_marginStart="80dp"
+                android:background="@color/purple_500" />
+
+            <Spinner
+                android:id="@+id/LOVLocation"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/IMGBTNSearch"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:padding="3dp"
+            android:src="@drawable/search"
+            android:background="@drawable/rounded_courners_right_purple"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/AcademyiesResultRV"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scrollbars="vertical"
+        android:background="@drawable/rounded_courners_recycleview"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+        android:alpha="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchBarLL" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "917542926335",
+    "project_id": "tamarin-dev-4f3ed",
+    "storage_bucket": "tamarin-dev-4f3ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917542926335:android:26f17e54952ce6fdb3d9ca",
+        "android_client_info": {
+          "package_name": "com.kanon.tamarin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917542926335-ftohnljf262182nt71qa707fl6am8qbg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEj4itxqhbhwz3zUe7Yfdc_yshE7X0QKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917542926335-ftohnljf262182nt71qa707fl6am8qbg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
