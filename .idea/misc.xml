@@ -13,6 +13,7 @@
         <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/drawable/rounded_courners_right_purple.xml" value="0.2505" />
         <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/drawable/rounded_courners_white.xml" value="0.2505" />
         <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/drawable/rounded_search_button.xml" value="0.2205" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/drawable/side_nav_bar.xml" value="0.223" />
         <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/academy_result_list_item.xml" value="0.3625" />
         <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/activity_academy_category_branch_edit.xml" value="0.3625" />
         <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/activity_academy_details.xml" value="0.33" />
@@ -24,7 +25,7 @@
         <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/app_bar_home.xml" value="0.3625" />
         <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/branch_result_list_item.xml" value="0.3625" />
         <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/category_custom_spinner_item.xml" value="0.3614583333333333" />
-        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/content_home.xml" value="0.3625" />
+        <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/content_home.xml" value="0.25" />
         <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/dialog_confirmation_box.xml" value="0.27109375" />
         <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/dialog_new_academy_branch.xml" value="0.3614583333333333" />
         <entry key="..\:/Android/WorkspaceAND/Tamarin/app/src/main/res/layout/dialog_new_academy_branch_category.xml" value="0.3625" />

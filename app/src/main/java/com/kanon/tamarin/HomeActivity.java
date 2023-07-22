@@ -9,6 +9,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Spinner;
@@ -87,6 +88,8 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
     private ImageView searchIMGBTN;
 
+    private Button searchBTN;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -116,9 +119,23 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
         searchTypeSW = findViewById(R.id.SearchSwitch);
 
-        searchIMGBTN = findViewById(R.id.IMGBTNSearch);
+//        searchIMGBTN = findViewById(R.id.IMGBTNSearch);
+//
+//        searchIMGBTN.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view)
+//            {
+//                //GetAcademiesSearchResult();
+//                if (searchTypeSW.getCheckedButtonId() == R.id.SearchSWAcademy)
+//                    GetAllAcademies("academy");
+//                else if (searchTypeSW.getCheckedButtonId() == R.id.SearchSWTrainer)
+//                    GetAllAcademies("trainer");
+//            }
+//        });
 
-        searchIMGBTN.setOnClickListener(new View.OnClickListener() {
+        searchBTN = findViewById(R.id.BTNSearch);
+
+        searchBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view)
             {
@@ -129,6 +146,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                     GetAllAcademies("trainer");
             }
         });
+
 
         RefreshLocationCategory();
     }

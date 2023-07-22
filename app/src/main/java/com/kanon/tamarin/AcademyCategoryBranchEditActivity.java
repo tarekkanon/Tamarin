@@ -60,7 +60,7 @@ public class AcademyCategoryBranchEditActivity extends AppCompatActivity {
 
     private Dialog newCategoryBranchDialog;
     private Button addNewCategoryBranchDialogBTN,cancelNewCategoryBranchDialogBTN;
-    private EditText categoryBranchRatePerSessionET;
+    private EditText categoryBranchRatePerSessionET, categoryBranchNumberOfSessionET;
     private Spinner categoryBranchLOV;
 
     private Dialog deleteConfirmationDialog;
@@ -90,6 +90,7 @@ public class AcademyCategoryBranchEditActivity extends AppCompatActivity {
         addNewCategoryBranchDialogBTN = newCategoryBranchDialog.findViewById(R.id.dialog_category_branch_add_btn);
         cancelNewCategoryBranchDialogBTN = newCategoryBranchDialog.findViewById(R.id.dialog_category_branch_cancel_btn);
         categoryBranchRatePerSessionET = newCategoryBranchDialog.findViewById(R.id.categoryBranchRateET);
+        categoryBranchNumberOfSessionET = newCategoryBranchDialog.findViewById(R.id.categoryBranchSessionET);
         categoryBranchLOV = newCategoryBranchDialog.findViewById(R.id.dialog_LOVCategory);
 
         deleteConfirmationDialog = new Dialog(AcademyCategoryBranchEditActivity.this);
@@ -138,7 +139,7 @@ public class AcademyCategoryBranchEditActivity extends AppCompatActivity {
                     academyCategoryBranchForEdit.setCategoryRef(categoriesFirestoreManager.getCategoryRefDocument(categoriesList.get(categoryBranchLOV.getSelectedItemPosition()).getDocumentId()));
 
                     academyCategoryBranchForEdit.setRatePerSession(Integer.parseInt(categoryBranchRatePerSessionET.getText().toString()));
-
+                    academyCategoryBranchForEdit.setSessions(Integer.parseInt(categoryBranchNumberOfSessionET.getText().toString()));
                     academyCategoryBranchFirestoreManager.updateAcademyCategoryBranch(academyCategoryBranchForEdit);
 
                     Toast.makeText(AcademyCategoryBranchEditActivity.this, "Updated!", Toast.LENGTH_LONG).show();
@@ -157,6 +158,7 @@ public class AcademyCategoryBranchEditActivity extends AppCompatActivity {
                     academyCategoryBranch.setLocationRef(locationsFirestoreManager.getLocationRefDocument(currentBranch.getLocation().getDocumentId()));
 
                     academyCategoryBranch.setRatePerSession(Integer.parseInt(categoryBranchRatePerSessionET.getText().toString()));
+                    academyCategoryBranch.setSessions(Integer.parseInt(categoryBranchNumberOfSessionET.getText().toString()));
 
                     academyCategoryBranchFirestoreManager.createDocument(academyCategoryBranch);
 

@@ -19,6 +19,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <EditText
+        android:id="@+id/categoryBranchSessionET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/NumberOfSessions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/categoryBranchRateET"/>
+
     <Spinner
         android:id="@+id/dialog_LOVCategory"
         android:layout_width="match_parent"
@@ -26,7 +40,7 @@
         android:minHeight="48dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/categoryBranchRateET"/>
+        app:layout_constraintTop_toBottomOf="@id/categoryBranchSessionET"/>
 
     <Button
         android:id="@+id/dialog_category_branch_add_btn"

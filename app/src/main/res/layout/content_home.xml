@@ -113,7 +113,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="5dp"
             android:layout_weight="1">
 
             <Spinner
@@ -121,6 +120,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:minHeight="40dp"
+                android:layout_margin="5dp"
                 android:gravity="center"
                 />
 
@@ -136,20 +137,29 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:minHeight="40dp"
+                android:layout_margin="5dp"
                 android:gravity="center"
                 />
-
+            <Button
+                android:id="@+id/BTNSearch"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/Search"
+                android:background="@drawable/rounded_courners_bottom_purple"
+                />
         </LinearLayout>
 
-        <ImageView
-            android:id="@+id/IMGBTNSearch"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="0.15"
-            android:padding="3dp"
-            android:src="@drawable/search"
-            android:background="@drawable/rounded_courners_right_purple"
-            />
+<!--        <ImageView-->
+<!--            android:id="@+id/IMGBTNSearch"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="0.15"-->
+<!--            android:padding="3dp"-->
+<!--            android:src="@drawable/search"-->
+<!--            android:background="@drawable/rounded_courners_right_purple"-->
+<!--            />-->
 
 
     </LinearLayout>

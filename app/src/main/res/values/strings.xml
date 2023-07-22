@@ -50,10 +50,12 @@
     <string name="YT">Youtube</string>
     <string name="IG">Instagram</string>
     <string name="TW">Twitter</string>
+    <string name="Search">Search</string>
     <string name="Academy">Academy</string>
     <string name="Trainer">Trainer</string>
 
 
     <string name="RatePerSession">Rate per session</string>
+    <string name="NumberOfSessions">Number of sessions</string>
 
 </resources>
