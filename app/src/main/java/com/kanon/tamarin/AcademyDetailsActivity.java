@@ -217,7 +217,10 @@ public class AcademyDetailsActivity extends AppCompatActivity {
         academyCategoryNameTV.setText(currentAcademy.getCategory().getCategoryName());
 
         if (currentAcademy.getRatePerSession() > 1)
-            academyRateTV.setText(new StringBuilder().append("EGP ").append( currentAcademy.getRatePerSession().toString()).append( " Per " ).append(currentAcademy.getSessions()).append(" Session"));
+            if (currentAcademy.getSessions() != null && currentAcademy.getSessions() > 0)
+                academyRateTV.setText(new StringBuilder().append("EGP ").append( currentAcademy.getRatePerSession().toString()).append( " Per " ).append(currentAcademy.getSessions()).append(" Session"));
+            else
+                academyRateTV.setText(new StringBuilder().append("EGP ").append( currentAcademy.getRatePerSession().toString()));
 
         academyAddressTV.setText(currentAcademy.getBranch().getAddress());
 

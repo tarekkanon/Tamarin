@@ -65,7 +65,10 @@ public class AcademiesResultListAdapter extends RecyclerView.Adapter<AcademiesRe
         rv_item_mobile.setText(academiesArrayList.get(position).getLocation().getLocationName());
 
         if (academiesArrayList.get(position).getRatePerSession() > 1)
-            rv_item_rate_per_session.setText("EGP " + academiesArrayList.get(position).getRatePerSession().toString() + "\n Per " + academiesArrayList.get(position).getSessions() +" Session");
+            if (academiesArrayList.get(position).getSessions() != null && academiesArrayList.get(position).getSessions() > 0)
+                rv_item_rate_per_session.setText("EGP " + academiesArrayList.get(position).getRatePerSession().toString() + "\n Per " + academiesArrayList.get(position).getSessions() +" Session");
+            else
+                rv_item_rate_per_session.setText("EGP " + academiesArrayList.get(position).getRatePerSession().toString());
         else
             rv_item_rate_per_session.setText("");
 

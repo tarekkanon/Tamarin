@@ -263,6 +263,12 @@ public class EditProfileActivity extends AppCompatActivity {
                             InputStream inputStream = getContentResolver().openInputStream(Uri.parse(currentAcademyProfile.getImages().get(i)));
                             Bitmap bitmap = ((BitmapDrawable) Drawable.createFromStream(inputStream, currentAcademyProfile.getImages().get(i))).getBitmap();
 
+                            if (bitmap.getByteCount() > 5242880)
+                            {
+                                Toast.makeText(EditProfileActivity.this, "Image size is more than 5MB", Toast.LENGTH_LONG).show();
+                                return false;
+                            }
+
                             ByteArrayOutputStream baos = new ByteArrayOutputStream();
                             bitmap.compress(Bitmap.CompressFormat.WEBP, 50, baos);
                             byte[] data = baos.toByteArray();
