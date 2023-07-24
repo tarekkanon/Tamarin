@@ -79,6 +79,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     private RecyclerView academiesListRV;
     private RecyclerView.LayoutManager layoutManager;
     private AcademiesResultListAdapter resultListAdapter;
+    private ArrayAdapter<Categories> categoriesArrayAdapter;
 
     private DrawerLayout drawer;
     private NavigationView navigationView;
@@ -418,7 +419,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
                         categoriesList = querySnapshot.toObjects(Categories.class);
 
-                        ArrayAdapter<Categories> categoriesArrayAdapter = new CategorySpinnerAdapter(HomeActivity.this, R.layout.category_custom_spinner_item, categoriesList);
+                        categoriesArrayAdapter = new CategorySpinnerAdapter(HomeActivity.this, R.layout.category_custom_spinner_item, categoriesList);
 
                         LOVCategory.setAdapter(categoriesArrayAdapter);
 
